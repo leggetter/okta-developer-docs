@@ -41,7 +41,7 @@ If you already have Hookdeck installed, move on to [Run Hookdeck](#run-hookdeck)
 Some installation notes:
 
 * You don't need to have an account to install and run Hookdeck. However, a free account provides more features in the Hookdeck dashboard and API authentication.
-* If you choose not to create an account, you use the Hookdeck console rather than the dashboard.
+* If you choose not to create an account, you use Hookdeck Inspect rather than the dashboard.
 
 ### Run Hookdeck
 
@@ -85,7 +85,7 @@ See [Hookdeck](https://hookdeck.com/) or their [Product docs](https://hookdeck.c
 
 ### Review Hookdeck dashboard
 
-The Hookdeck dashboard provides an opportunity to review all calls to your local app. Use the dashboard link provided by the Hookdeck utility to access details on your hook calls. For example, `http://dashboard..hookdeck.com?team_id=tm_DzF5wrNULyBG`. If you've not signed in to Hookdeck previously, you get a guest URL to Hookdeck console instead.
+The Hookdeck dashboard provides an opportunity to review all calls to your local app. Use the dashboard link provided by the Hookdeck utility to access details on your hook calls. For example, `https://dashboard.hookdeck.com?team_id=tm_DzF5wrNULyBG`. If you've not signed in to Hookdeck previously, the links open Hookdeck Inspect instead.
 
 Each call to your local app appears in the dashboard and includes the response body, header, and other details:
 
